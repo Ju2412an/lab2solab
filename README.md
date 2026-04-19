@@ -159,7 +159,7 @@ Se implementan exactamente los tres built-ins pedidos por el enunciado:
 
 # 4. Pruebas Realizadas
 
-Las pruebas se automatizaron con el script `dev/test/test_wish.sh`, que se ejecuta desde el directorio `dev/` con:
+Las pruebas se automatizaron con el script `test/test_wish.sh`, que se ejecuta desde la raíz del repositorio con:
 
 ```bash
 bash test/test_wish.sh
@@ -234,7 +234,7 @@ Todas las pruebas se ejecutaron en Ubuntu 24 dentro de WSL. El resultado complet
 
 ## 5.1 Compilación con GCC
 
-Desde `dev/`:
+Desde la raíz del repositorio:
 
 ```bash
 make          # Compila ./wish con -Wall -Wextra

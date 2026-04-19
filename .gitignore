@@ -1,0 +1,32 @@
+# Binario compilado
+wish
+
+# Objetos y ejecutables genéricos de C
+*.o
+*.obj
+*.a
+*.out
+*.exe
+
+# Artefactos residuales de pruebas manuales del shell
+ls
+salida.txt
+out.txt
+out2.txt
+a
+b
+err.txt
+vg_out.txt
+batch_out.txt
+
+# Archivos de editor / sistema operativo
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Core dumps
+core
+vgcore.*
